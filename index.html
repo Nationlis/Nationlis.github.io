@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Mode Toggle</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="js/script.js">
+  <title>WebP 轮播图</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<button id="theme-toggle">Toggle Dark Mode</button>
-<div id="content">
-  <h1>Welcome to the Dark Mode Toggle Example</h1>
-  <p>This is a simple example of how to implement dark mode and light mode in a web application.</p>
+<div class="carousel-container">
+  <div class="carousel-slide">
+    <!-- 图片将由 JavaScript 动态插入 -->
+  </div>
+
+  <!-- 导航箭头 -->
+  <button class="carousel-btn prev-btn">&lt;</button>
+  <button class="carousel-btn next-btn">&gt;</button>
+
+  <!-- 指示器 -->
+  <div class="indicators"></div>
 </div>
-<script src="js/script.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
